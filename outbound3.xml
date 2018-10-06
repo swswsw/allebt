@@ -1,5 +1,5 @@
 <Response>
   <Record timeout="10" transcribe="true" />
   <Pause length="10"/>
-  <Say voice="alice">,,,,,,,,,,,,,Hello, this is a friendly reminder from All EBT that you have 3 days to spend the remaining twenty six dollars and forty one cents on your EBT card. We will remind you tomorrow... Then we will remind your whole family the day after tomorrow.  Have a good day!</Say>
+  <Say voice="alice">,,,,,,,,,,,,,Hello, this is a friendly reminder from All E B T that you have 3 days to spend the remaining twenty six dollars and forty one cents on your E B T card. We will remind you tomorrow... Then we will remind your whole family the day after tomorrow.  Have a good day!</Say>
 </Response>
