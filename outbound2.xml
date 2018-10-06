@@ -2,7 +2,6 @@
   <Record timeout="10" transcribe="true" />
   <Dial>
     <Number sendDigits="wwww1928">
-    408-372-6477
     </Number>
   </Dial>
   <Pause length="10"/>
