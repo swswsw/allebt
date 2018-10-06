@@ -1,3 +1,10 @@
 <Response>
   <Record timeout="10" transcribe="true" />
+  <Dial>
+    <Number sendDigits="wwww1928">
+    408-372-6477
+    </Number>
+  </Dial>
+  <Pause length="10"/>
+  <Say voice="alice">,,,,,,Your account balance is 26 dollars and 41 cents.  As a reminder, by saving the receipt from your last purchase, you will always have your current balance.</Say>
 </Response>
