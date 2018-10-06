@@ -1,3 +1,4 @@
 <Response>
-  <Say voice="alice">Your account balance is 26 dollars and 41 cents.  As a reminder, by saving the receipt from your last purchase, you will always have your current balance.</Say>
+  <Pause length="10"/>
+  <Say voice="alice">,,,,,,Your account balance is 26 dollars and 41 cents.  As a reminder, by saving the receipt from your last purchase, you will always have your current balance.</Say>
 </Response>
