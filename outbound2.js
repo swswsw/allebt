@@ -21,11 +21,12 @@ response.say('test and Goodbye');
 
 console.log(response.toString());
 
-// client.calls
-//       .create({
-//          url: 'https://raw.githubusercontent.com/swswsw/allebt/master/outbound2.xml',
-//          to: '+16505333392',
-//          from: '+14153407736'
-//        })
-//       .then(call => console.log(call.sid))
-//       .done();
+client.calls
+      .create({
+         record: ture,
+         url: 'https://raw.githubusercontent.com/swswsw/allebt/master/outbound2.xml',
+         to: '+16505333392',
+         from: '+14153407736'
+       })
+      .then(call => console.log(call.sid))
+      .done();

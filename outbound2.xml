@@ -1,1 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><Response><Dial callerId="+14153407736"><Number>+16505333392</Number></Dial><Say>test and Goodbye</Say></Response>
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+    <Dial callerId="+14153407736">
+        <Number>+16505333392</Number>
+    </Dial>
+</Response>
