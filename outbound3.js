@@ -9,7 +9,6 @@ const client = require('twilio')(accountSid, authToken);
 
 client.calls
       .create({
-         record: true,
          url: 'http://raw.githubusercontent.com/swswsw/allebt/master/outbound2.xml',
          to: '+14083726477',
          from: '+14153012420'
