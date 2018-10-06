@@ -2,5 +2,5 @@
 <Response>
   <Say voice="alice">hello!</Say>
   <Play digits="wwww3w4w5w6w7w8w9"></Play>
-  <Play loop="1">http://demo.twilio.com/docs/classic.mp3</Play>
+  <Play>http://demo.twilio.com/docs/classic.mp3</Play>
 </Response>
