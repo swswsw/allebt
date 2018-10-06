@@ -1,0 +1,22 @@
+{
+  "name": "allebt",
+  "version": "1.0.0",
+  "description": "voice call and reminder for people",
+  "main": "outbound.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swswsw/allebt.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swswsw/allebt/issues"
+  },
+  "homepage": "https://github.com/swswsw/allebt#readme",
+  "dependencies": {
+    "twilio": "^3.22.0"
+  }
+}
