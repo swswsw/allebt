@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Response>
-    <Dial callerId="+14153407736">
-        <Number>+16505333392</Number>
-    </Dial>
+  <Say voice="alice">Thanks for trying our documentation. Enjoy!</Say>
+  <Play>http://demo.twilio.com/docs/classic.mp3</Play>
 </Response>

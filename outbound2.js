@@ -23,7 +23,7 @@ console.log(response.toString());
 
 client.calls
       .create({
-         record: ture,
+         record: true,
          url: 'https://raw.githubusercontent.com/swswsw/allebt/master/outbound2.xml',
          to: '+16505333392',
          from: '+14153407736'
