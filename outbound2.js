@@ -13,16 +13,19 @@ const VoiceResponse = require('twilio').twiml.VoiceResponse;
 
 
 const response = new VoiceResponse();
-response.dial('+16505333392');
+const dial = response.dial({
+  callerId: '+14153407736',
+});
+dial.number('+16505333392');
 response.say('test and Goodbye');
 
 console.log(response.toString());
 
-client.calls
-      .create({
-         url: 'https://raw.githubusercontent.com/swswsw/allebt/master/outbound2.xml',
-         to: '+16505333392',
-         from: '+14153407736'
-       })
-      .then(call => console.log(call.sid))
-      .done();
+// client.calls
+//       .create({
+//          url: 'https://raw.githubusercontent.com/swswsw/allebt/master/outbound2.xml',
+//          to: '+16505333392',
+//          from: '+14153407736'
+//        })
+//       .then(call => console.log(call.sid))
+//       .done();
